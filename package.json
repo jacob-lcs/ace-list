@@ -1,0 +1,42 @@
+{
+  "name": "ace-list",
+  "version": "0.0.1",
+  "description": "虚拟列表",
+  "main": "./dist/ace-list.umd.js",
+  "module": "./dist/ace-list.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/ace-list.es.js",
+      "require": "./dist/ace-list.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacob-lcs/ace-list.git"
+  },
+  "keywords": [
+    "虚拟列表"
+  ],
+  "author": "Jacob <jacob.lcs@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacob-lcs/ace-list/issues"
+  },
+  "homepage": "https://github.com/jacob-lcs/ace-list#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "eslint": "^7.27.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "@types/react": "^16.8.0",
+    "@types/react-dom": "^16.8.0",
+    "typescript": "^4.3.2"
+  }
+}
