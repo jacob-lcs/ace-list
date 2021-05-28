@@ -14,7 +14,7 @@
     "dev": "vite",
     "build:lib": "vite build --config vite.lib.config.js",
     "build:demo": "vite build",
-    "publish:gh-pages": "node gh-pages.js"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
