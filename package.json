@@ -12,7 +12,9 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build:lib": "vite build --config vite.lib.config.js",
+    "build:demo": "vite build",
+    "publish:gh-pages": "node gh-pages.js"
   },
   "repository": {
     "type": "git",
@@ -28,15 +30,16 @@
   },
   "homepage": "https://github.com/jacob-lcs/ace-list#readme",
   "devDependencies": {
+    "@types/react": "^16.8.0",
+    "@types/react-dom": "^16.8.0",
     "@typescript-eslint/eslint-plugin": "^4.25.0",
     "@typescript-eslint/parser": "^4.25.0",
     "eslint": "^7.27.0",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "gh-pages": "^3.2.0",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
-    "@types/react": "^16.8.0",
-    "@types/react-dom": "^16.8.0",
     "typescript": "^4.3.2"
   }
 }
