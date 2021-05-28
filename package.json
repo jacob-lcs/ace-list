@@ -1,6 +1,6 @@
 {
   "name": "ace-list",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "虚拟列表",
   "main": "./dist/ace-list.umd.js",
   "module": "./dist/ace-list.es.js",
