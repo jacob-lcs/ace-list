@@ -1,1 +1,0 @@
-import{r as e,a as t}from"./vendor.dcb145b9.js";const r=()=>e.exports.createElement("div",null,"test");t.exports.render(e.exports.createElement(e.exports.StrictMode,null,e.exports.createElement(r,null)),document.getElementById("root"));
