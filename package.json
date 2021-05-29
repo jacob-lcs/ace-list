@@ -17,6 +17,13 @@
     "deploy": "gh-pages -d dist",
     "prepublish": "npm run build:lib"
   },
+  "files": [
+    "dist",
+    "types",
+    "package.json",
+    "README.md",
+    "CHANGELOG.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jacob-lcs/ace-list.git"
@@ -25,7 +32,7 @@
     "虚拟列表"
   ],
   "author": "Jacob <jacob.lcs@qq.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jacob-lcs/ace-list/issues"
   },
